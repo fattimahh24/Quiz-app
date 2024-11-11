@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz">
+    <h1>Quiz-App</h1>
+    <form id="form">
+        <div class="question">
+    <p>Question: What color is the sky on a clear day?</p>
+    <label><input class="radio" type="radio" name="q1" value="Green">Green</label> <br>
+    <label><input class="radio" type="radio" name="q1" value="blue">Blue</label> <br>
+    <label><input class="radio" type="radio" name="q1" value="yellow">Yellow</label> <br>
+    <label><input class="radio" type="radio" name="q1" value="red">Red</label> <br>
+</div>
+<div class="question">
+    <p>Question: How many legs does a spider have?</p>
+    <label><input class="radio" type="radio" name="q2" value="3">3</label> <br>
+    <label><input class="radio" type="radio" name="q2" value="9">9</label> <br>
+    <label><input class="radio" type="radio" name="q2" value="8">8</label> <br>
+    <label><input class="radio" type="radio" name="q2" value="10">10</label> <br>
+</div>
+<div class="question">
+    <p>Question: What is the capital of France?</p>
+    <label><input class="radio" type="radio" name="q3" value="Noida">Noida</label> <br>
+    <label><input class="radio" type="radio" name="q3" value="Islamabad">Islamabad</label> <br>
+    <label><input class="radio" type="radio" name="q3" value="Newyork">Newyork</label> <br>
+    <label><input class="radio" type="radio" name="q3" value="paris">Paris</label> <br>
+</div>
+<div class="question">
+    <p>Question: What fruit is known for having seeds on the outside?</p>
+    <label><input class="radio" type="radio" name="q4" value="strawberry">Strawberry</label> <br>
+    <label><input class="radio" type="radio" name="q4" value="mango">Mango</label> <br>
+    <label><input class="radio" type="radio" name="q4" value="pineapple">Pineapple</label> <br>
+    <label><input class="radio" type="radio" name="q4" value="orange">Orange<label> <br>
+</div>
+<div class="question">
+    <p>Question: In which direction does the sun rise?</p>
+    <label><input class="radio" type="radio" name="q5" value="west">West</label> <br>
+    <label><input class="radio" type="radio" name="q5" value="north">North</label> <br>
+    <label><input class="radio" type="radio" name="q5" value="east">East</label> <br>
+    <label><input class="radio" type="radio" name="q5" value="South">South</label> <br>
+</div>
+<div class="container2">
+    <div class="button">
+        <button class="button" type="button" onclick="submitQuiz()">Submit</button>
+        </div> 
+    <div id="result" class="result"></div>
+    </div>
+</form> 
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
